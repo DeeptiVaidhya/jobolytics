@@ -1,0 +1,105 @@
+﻿/* ================================================================== */
+/* CSS Style Switcher By FIFO THEMES
+====================================================================== */
+
+	#style-switcher h3 {
+	  color: #222;
+	  font-size: 13px;
+	  font-weight: 600;
+	  margin: 10px 0 10px 1px;
+	  line-height: 20px;
+	  font-weight: 500;
+	}
+	
+	#style-switcher {
+		background-color: #f5f5fa;
+		width: 205px;
+		position:fixed;
+		top: 184px;
+		z-index: 999;
+		border-radius: 0 0 3px 0;
+		left: -206px;
+		border: 1px solid #222;
+		border-left: 0;
+		border-top: 0;
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+	}
+	
+	#style-switcher div {
+		padding: 3px 18px 5px 18px;
+	}
+	
+	#style-switcher h2 {
+		background-color: #35434f;
+		color: #fff;
+		font-weight: bold;
+		font-size: 14px;
+		padding: 0 0 0 20px;
+		margin:0;
+		line-height:40px;
+	}
+	
+	
+	#style-switcher h2 a {
+		
+		background-color: #35434f;
+		display: block;
+		height: 40px;
+		position: absolute;
+		right: -43px;
+		font-size:20px;
+		text-align:center;
+		color:#fff;
+		top: 0;
+		width: 43px;
+		text-decoration:none;
+		border-radius: 0 3px 3px 0;
+	}	
+	ul.colors {
+		list-style:none;
+		margin: 0 0px 10px 0;
+        padding: 0;
+		overflow: hidden;
+	}
+	
+	ul.colors li {
+		float:left;
+		margin: 4px 2px 0 2px;
+	}
+	
+	ul.colors li a {
+		display: block;
+		width: 38px;
+		height: 38px;
+		cursor: pointer;
+		border-radius: 1px;
+	} 
+	
+	.layout-style select, .header-style select, 
+	.footer-style select, .header-color input {
+		width: 164px;
+		padding: 2px 5px;
+		color: #888;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 13px;
+		margin: 2px 0 2px 2px;
+	}
+
+	
+	.layout-style, .header-style, .header-color
+	.footer-style { padding: 0 !important; }
+	
+	.turquoise { background: #1abc9c; }
+	.peterriver { background: #3498db; }
+	.asphalt {background: #34495e; }
+	.alizarin { background: #e74c3c; }
+	.amethyst { background: #9b59b6; }
+	.carrot { background: #e67e22; }
+	.sunflower { background: #f1c40f; }
+	.concrete { background: #95a5a6; }
+
+	
+	
+	@media only screen and (max-width: 1023px) { #style-switcher { display: none; } }
+	   
